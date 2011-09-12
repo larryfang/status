@@ -1,4 +1,9 @@
 Status::Application.routes.draw do
+  get "info/index"
+  get "info/external"
+  get "info/show"
+  get "info/list"
+
   get "status/index"
 
   # The priority is based upon order of creation:
