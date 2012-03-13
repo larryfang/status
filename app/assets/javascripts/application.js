@@ -7,3 +7,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+$(document).ready(function() {
+$('.delete_comment').bind('ajax:success', function() {  
+    $(this).closest('tr').fadeOut();  
+});  
+});

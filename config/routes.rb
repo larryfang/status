@@ -1,4 +1,7 @@
 Status::Application.routes.draw do
+  resources :comments
+
+
   get "info/index"
   get "info/external"
   get "info/show"
