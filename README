@@ -1,4 +1,9 @@
 Copy from a local repo to your localbranch
+<<<<<<< HEAD
 hello 
 tonight for d1 again
 today
+=======
+hello
+change from master
+>>>>>>> commit from master
